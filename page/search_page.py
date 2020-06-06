@@ -28,7 +28,8 @@ class SearchPage(BaseAction):
     def click_del_search(self):
         self.click(self.del_search_button)
 
-    #
+    # 判断有无搜索历史
+    @allure.step(title="搜索页 判断 有无搜索历史")
     def is_search_empty(self):
         xpath = By.XPATH,"//*[@text='暂无搜索历史']"
         return self.is_feature_exist(xpath)
