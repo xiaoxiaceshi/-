@@ -1,0 +1,14 @@
+test_login:
+    test_login_001:
+        username: "xiaoxiatest"
+        pwd: "xia123456"
+        toast: Null
+    test_login_002:
+        username: "xiaoxiatest1"
+        pwd: "xia123456"
+        toast: "此用户不存在"
+    test_login_003:
+        username: "xiaoxiatest"
+        pwd: "xia1234"
+        toast: "登录密码错误"
+

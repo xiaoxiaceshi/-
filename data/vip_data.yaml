@@ -1,0 +1,7 @@
+test_to_be_member:
+  test_to_be_member_001:
+    keyword: "hello"
+    expect: "邀请码输入不正确"
+  test_to_be_member_002:
+    keyword: ""
+    expect: "请填写邀请码"

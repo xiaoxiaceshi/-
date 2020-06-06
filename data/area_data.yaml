@@ -1,0 +1,37 @@
+test_add_area:
+  test_add_area_001:
+    name: "牛十"
+    phone: "18311111111"
+    area_detail: "3单元302"
+    post_code: "111111"
+    toast: Null
+  test_add_area_002:
+    name: ""
+    phone: "18311111111"
+    area_detail: "3单元302"
+    post_code: "111111"
+    toast: "收件人姓名"
+  test_add_area_003:
+    name: "张明"
+    phone: "1831111111"
+    area_detail: "3单元302"
+    post_code: "111111"
+    toast: "11位手机号"
+  test_add_area_004:
+    name: "张明"
+    phone: "18311111111"
+    area_detail: ""
+    post_code: "111111"
+    toast: "请输入详细地址"
+  test_add_area_005:
+    name: "张明"
+    phone: "18311111111"
+    area_detail: "3单元302"
+    post_code: "1111"
+    toast: "邮政编码错误，请输入6位数字"
+  test_add_area_006:
+    name: "张明"
+    phone: "18311111111"
+    area_detail: "3单元302"
+    post_code: ""
+    toast: Null
